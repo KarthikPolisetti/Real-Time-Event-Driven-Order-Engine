@@ -16,9 +16,9 @@ public class MessageRunner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws  Exception{
-        String message="Hello from spring boot ! This is my first event!";
+        //String message="Hello from spring boot ! This is my first event!";
 
-        rabbitTemplate.convertAndSend(RabbitMQConfig.QUEUE_NAME,message);
-        System.out.println("✅ Message sent to RabbitMQ successfully! ");
+        //rabbitTemplate.convertAndSend(RabbitMQConfig.QUEUE_NAME,message);
+        //System.out.println("✅ Message sent to RabbitMQ successfully! ");
     }
 }
