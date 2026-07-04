@@ -31,10 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-
-### Application Config ###
-**/src/main/resources/application.properties
-
-### Hide Docker Compose entirely ###
-docker-compose.yml
